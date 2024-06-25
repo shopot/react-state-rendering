@@ -1,4 +1,5 @@
 import { type JSX } from 'react';
+
 import { getRandomColor } from '../utils';
 
 export const ChildComponent1 = (): JSX.Element => {

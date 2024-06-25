@@ -1,6 +1,8 @@
 import { useState, type JSX } from 'react';
+
 import { ChildComponent1 } from './ChildComponent1';
 import { ChildComponent2 } from './ChildComponent2';
+
 import { getRandomColor } from '../utils';
 
 export const PropsContainer = (): JSX.Element => {

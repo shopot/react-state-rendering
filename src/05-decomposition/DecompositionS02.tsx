@@ -2,6 +2,7 @@ import { useState, type JSX } from 'react';
 
 import { CounterIncrement } from './children/CounterIncrement';
 import { CounterDecrement } from './children/CounterDecrement';
+
 import { getRandomColor } from '../utils';
 
 type CounterState = {

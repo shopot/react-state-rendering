@@ -1,5 +1,7 @@
 import { type JSX } from 'react';
+
 import { useCustomHook } from './useCustomHook';
+
 import { getRandomColor } from '../utils';
 
 export const HookContainer = (): JSX.Element => {

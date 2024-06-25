@@ -1,4 +1,5 @@
 import { useState, type JSX } from 'react';
+
 import { getRandomColor } from '../utils';
 
 type CounterState = {

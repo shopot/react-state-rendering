@@ -1,5 +1,7 @@
 import { useState, type JSX } from 'react';
+
 import { ChildComponent } from './ChildComponent';
+
 import { getRandomColor } from '../utils';
 
 export const ParentContainer = (): JSX.Element => {

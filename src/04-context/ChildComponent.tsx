@@ -1,6 +1,7 @@
 import { useContext, type JSX } from 'react';
 
 import { CounterContext } from './CounterContext';
+
 import { getRandomColor } from '../utils';
 
 export const ChildComponent = (): JSX.Element => {
